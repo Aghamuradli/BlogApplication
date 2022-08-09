@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ProgrammersBlog.Entities/1.0.0": {
+        "dependencies": {
+          "ProgrammersBlog.Shared": "1.0.0"
+        },
+        "runtime": {
+          "ProgrammersBlog.Entities.dll": {}
+        }
+      },
+      "ProgrammersBlog.Shared/1.0.0": {
+        "runtime": {
+          "ProgrammersBlog.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgrammersBlog.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProgrammersBlog.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

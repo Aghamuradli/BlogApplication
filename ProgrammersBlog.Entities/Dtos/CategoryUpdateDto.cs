@@ -11,7 +11,7 @@ namespace ProgrammersBlog.Entities.Dtos
     public class CategoryUpdateDto
     {
         [Required]
-        public int İd { get; set; }
+        public int Id { get; set; }
         [DisplayName("Kategoriya Adı")]
         [Required(ErrorMessage = "Kategoriya adı boş olmamalıdır.")]
         [MaxLength(70, ErrorMessage = "{0} {1} karakterdən böyük olmamalıdır.")]
